@@ -7,3 +7,9 @@
 [1015/075645.826:ERROR:crash_report_database_win.cc(457)] unexpected header
 [1016/055606.277:ERROR:crash_report_database_win.cc(457)] unexpected header
 [1016/055706.450:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1016/064255.306:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1016/065255.306:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1016/065255.306:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
+[1016/065255.306:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1016/065255.307:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1016/221812.146:ERROR:crash_report_database_win.cc(457)] unexpected header
