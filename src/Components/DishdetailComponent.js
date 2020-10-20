@@ -25,15 +25,14 @@ const RenderDish = ({dish}) => {
 }
 
 
-const RenderComments = ({dish}) => {
-    if (dish != null) {
-        if (dish.comments.length > 0) {
+const RenderComments = ({comments}) => {
+        if (comments != null) {
             return (
                 <div>
                     <Media tag="li">
                         <Media body>
                             <h4>Comments</h4>
-                            {dish.comments.map(comment => {
+                            {comments.map(comment => {
                                 return (
                                     <div>
                                         <div>
@@ -52,12 +51,8 @@ const RenderComments = ({dish}) => {
                 <div></div>
             )
         }
-    } else {
-        return (
-            <div></div>
-        )
-    }
-}
+    } 
+
 
 
 const Dishdetail = (props) => {
@@ -67,10 +62,10 @@ const Dishdetail = (props) => {
         <div className="container">
             <div className="row">
                 <div className="col-12 col-md-5 m-1">
-                    <RenderDish  dish={props.selectedDish}/>
+                    <RenderDish  dish={props.dish}/>
                 </div>
                 <div className="col-12 col-md-5 m-1">
-                    <RenderComments dish={props.selectedDish} />
+                    <RenderComments comments={props.comments} />
                 </div>
             </div>
         </div>
